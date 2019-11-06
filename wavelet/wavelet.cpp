@@ -302,14 +302,10 @@ void select(string tree, string indices) {
     int index;
     char character;
 
-    clock_t t;
-    t = clock();
     while (input >> character) {
         input >> index;
         cout << select_helper(index, character) << "\n";
     }
-    t = clock() - t;
-    cout << ((float)t)/CLOCKS_PER_SEC/10 << "\n";
 }
 
 int main(int argc, char** argv)
