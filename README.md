@@ -7,12 +7,12 @@ Building: compile bitrank.cpp using g++
 Using: Include "bitRank.h" in separate file. Create vectors of type bool and pass a pointer to this vector to the bit rank constructor.
 
 ## Bit Select
-Building: compile bitrank.cpp and bitselect.cpp using g++
+Building: compile with g++ select/select.cpp rank/bitRank.cpp
 
 Using: Include "bitRank.h" and "bitSelect.h" in separate file. Create vectors of type bool and apointer to this vector to the bit rank constructor. Pass a pointer to this bitRank to the bitSelect constructor.
 
 ## Wavetree
-Building: Compile using g++ wavelet.cpp select.cpp bitRank.cpp
+Building: Compile using g++ wavelet/wavelet.cpp select/select.cpp rank/bitRank.cpp
 
 Using: Run compiled program on the command line along with command line arguments as specified in the homework (ie build, access, rank, select).
 
