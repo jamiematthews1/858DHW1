@@ -2,7 +2,7 @@
 using namespace std;
 #include <vector>
 #include <math.h>
-#include "bitRank.h"
+#include "../rank/bitRank.h"
 #include "bitSelect.h"
 
 bitSelect::bitSelect(bitRank *br1) {

@@ -2,8 +2,8 @@
 using namespace std;
 #include <vector>
 #include <math.h>
-#include "bitRank.h"
-#include "bitSelect.h"
+#include "../rank/bitRank.h"
+#include "../select/bitSelect.h"
 #include <fstream>
 #include <bitset>
 #include <unordered_map>
